@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+    My WebPage!
+    </title>
+    </head>
+    <body>
+        <form>
+            <div>
+            <input type="text" placeholder="Name" name="name">
+            <input name="passWord" type="password" placeholder="passWord"> 
+            </div>
+            <div>
+                Favorite color?
+                <input name="color" type="radio" value="red"> Red
+                <input name="color" type="radio" value="blue"> Blue
+                <input name="color" type="radio" value="green"> green
+                <input name="color" type="radio" value="violet"> Violet
+            </div>
+            <div>
+                Choose country
+                <input name="country" list:"countries" placeholder="country">
+                <datalist id="countries">
+                    <option value="india">India</option>
+                    <option value="United States">United Ststes</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="China">China</option>
+                    <option value="Russia">Russia</option>
+                </datalist>
+            </div>
+            <button>submit!</button>
+        </form>
+    </body>
+</html>
